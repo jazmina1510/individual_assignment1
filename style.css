@@ -1,0 +1,241 @@
+body {
+    background-color: #0f1a14;
+    font-family: Arial;
+    margin: 40px;
+    color:#f5f5dc;
+    text-align: center;
+}
+
+.hero {
+    background: linear-gradient(to right, #1b2a20, #3f7d3f);
+    border-radius: 25px;
+    padding: 40px;
+    text-align: center;  
+    position: relative;
+    min-height: 490px;
+}
+
+.hero .menu {
+    background-color: transparent;
+    margin-bottom: 20px;
+}
+
+.welcome-text {
+    font-family: Gill Sans;
+    background-color: transparent !important;  /* buang background */
+    border: none !important;                   /* buang border */
+    padding: 0 !important;                     /* buang ruang kotak */
+    text-align: left;    
+    margin-left: 180px;    
+    margin-bottom: -10px;
+    color: #f4c430;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.hero h1 {
+    color: #f4c430;
+    font-size: 50px; 
+    text-align: left;
+    width: 55%;
+    margin-top: 0;
+    margin-left: 30px;
+    position: relative;
+    top: 60px;   
+}
+
+.brand {
+    background-color: transparent;
+    color: #f5f5dc;
+    padding: 0;
+    font-style: italic;
+    text-align: left;   /* jadi kiri */
+    margin-left: 10px;  /* jarak sikit dari tepi */
+}
+
+/* text bawah */
+.hero-text {
+    background-color: #1b2a20;
+    color: #f5f5dc;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+    width: 45%;
+    margin-left: 20px;
+    margin-top: 10px;
+    position: relative;
+    top: 50px;   
+    
+}
+
+.hero-img {
+    position: absolute;
+    right: 40px;
+    top: 120px;
+    width: 600px;
+    border-radius: 15px;
+}
+.tagline {
+    color: #f5f5dc;        /* cream */
+    text-align: center;
+    font-style: italic;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    text-shadow: 0px 0px 5px black;
+    background-color: transparent;  /* buang background */
+    padding-top: 0;                     /* buang ruang kotak */
+}
+
+.intro {
+    text-align: center;
+    color: #dcdcdc;
+    font-size: 18px;
+}
+
+.menu {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    background-color: transparent;
+}
+.menu a {
+    display: inline-block;        /* penting supaya jadi button */
+    background-color: #1b2a20;  
+    color: #f5f5dc;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 20px;          /* bentuk capsule */
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid #f4c430;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.3);
+    transition: all 0.4s ease;
+}
+
+.menu a:hover {
+    background-color: #f4c430;   
+    color: black;
+}
+a {
+    color: #1e3a5f;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px;
+}
+
+a:hover {
+    color: #6c757d;
+}
+h2 {
+    color: #f4c430;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+img {
+    width: 200px;
+    display: inline-block;
+    margin: 10px auto;
+    border-radius: 12px;
+    border: 2px solid #f4c430; /* border gold */
+}
+
+p {
+    background-color: #1b2a20;
+    padding: 15px;
+    border-radius: 10px;
+    line-height: 1.6;
+}
+
+ul {
+    background-color: #1b2a20;
+    padding: 20px 40px;
+    border-radius: 10px;
+    line-height: 1.8;
+    list-style-position: inside;
+    padding: 0;
+    text-align: center;
+}
+.about-img {
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;   /* align dengan text */
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.about-text {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;      /* supaya nampak kemas */
+    margin: 10px;
+    background-color: #1b2a20;
+    color: #f5f5dc;
+}
+
+.special-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+    background-color: #1b2a20;
+}
+
+.special-header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.special-header .menu {
+    margin: 0;
+    margin-top: 20px;
+}
+
+.quote {
+    display: inline-block;        
+    width: 420px;                   /* bagi ruang untuk gambar */
+    vertical-align: middle;
+    margin-right: 5px;
+    background-color: transparent;
+    border-left: 4px solid #f4c430;
+    padding-left: 15px;
+    margin: 10px;
+
+    font-style: italic;
+    color: #f5f5dc;
+    text-align: left;
+    font-size: 20px;
+}
+
+/* quotation mark kiri */
+.quote::before {
+    content: "“";
+    font-size: 30px;
+    color: #f4c430;
+    margin-right: 5px;
+}
+
+/* quotation mark kanan */
+.quote::after {
+    content: "”";
+    font-size: 30px;
+    color: #f4c430;
+    margin-left: 5px;
+}
+
+.quote-img {
+    display: inline-block;
+    width: 180px;
+    vertical-align: middle;
+    margin-left: 20px 5px;
+    border-radius: 10px;
+    border: 2px solid #f4c430;
+}
+
+.footer {
+    background-color: #1b2a20;
+    color: #f5f5dc;
+    text-align: center;
+}
